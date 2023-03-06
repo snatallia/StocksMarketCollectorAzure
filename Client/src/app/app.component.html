@@ -1,0 +1,15 @@
+<h1>{{title}}</h1>
+<p-table [value]="stocks" [tableStyle]="{'min-width': '50rem'}">
+  <ng-template pTemplate="header">
+      <tr>
+          <th>Symbol</th>
+          <th>Description</th>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-stock>
+      <tr>
+          <td>{{stock.symbol}}</td>
+          <td>{{stock.description}}</td>
+      </tr>
+  </ng-template>
+</p-table>

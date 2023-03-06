@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/453c558a-e43c-4e9d-af02-6ddacdae4990/AppServices/subscriptions/453c558a-e43c-4e9d-af02-6ddacdae4990/resourceGroups/StocksDataCollector_group/providers/Microsoft.Web/sites/StocksDataCollector",
+    "appService.deploySubpath": "bin\\Publish"
+}
